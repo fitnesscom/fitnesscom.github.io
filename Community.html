@@ -1,0 +1,155 @@
+<html>
+
+<head>
+    <title>fitness.com</title>
+    <link rel="stylesheet" href="2style.css">
+    <link rel="icon" href="logo.png" type="image/png">
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <b><li><div class="bg-div">
+                &nbsp;&nbsp;&nbsp;<img class="logo-img" src="logo.png" width="120" height="120" ALIGN=CENTER>&nbsp;&nbsp;&nbsp;</li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="Workouts.html">WORKOUTS</a></li>
+                <li><a class="active" href="Community.html">COMMUNITY</a></li>
+                <li><a href="Healthy.html">HEALTHY  LIVING</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="Site.html">TRAINERS</a></li></b>
+            </ul>
+        </nav>
+
+        <br /><br />
+        <div style="background-image: url(3.png); height: 300px; width: 1600px;">
+        </div>
+
+        <div class="container">
+            <br /><br />
+            <button class="accordion"><b>&quot;Do I Need to Work Out Every Day?&quot;</b></button>
+            <div class="panel">
+                <p>
+                    &rarr; You don't need to workout everyday, about 2-3 times a week would be sufficient to stay healthy.
+                </p>
+            </div>
+
+            <button class="accordion"><b>&quot;How Long Should I Work Out For?&quot;</b></button>
+            <div class="panel">
+                <p>
+                    &rarr; If you are just starting out, about 30 minutes or less is enough for a good session.
+                </p>
+            </div>
+
+            <button class="accordion"><b>&quot;How Can I Increase Lean Muscle Mass?&quot;</b></button>
+            <div class="panel">
+                <p>
+                    &rarr; You can do so by limiting your calorie intake and by increasing the amount of protein in your diet.
+                </p>
+            </div>
+
+            <button class="accordion"><b>&quot;How Much Weight Should I Use When Strength Training?&quot;</b></button>
+            <div class="panel">
+                <p>
+                    &rarr; In strength training you should pick an amount of weight that you can do for 3- 6 reps maximum, by doing this it can help with your explosive strength.
+                </p>
+            </div>
+
+            <button class="accordion"><b>&quot;What Training Should I Be Doing to Lose Weight?&quot;</b></button>
+            <div class="panel">
+                <p>
+                    &rarr; To lose weight, the types of exercises you should be doing are cardio exercises like swimming, cycling, burpees and the exercise that burns the most calories, running.
+                </p>
+            </div>
+
+            <button class="accordion"><b>&quot;How Often Should I Rest?&quot;</b></button>
+            <div class="panel">
+                <p>
+                    &rarr; 23 days is the minimum amount of days you can rest.
+                </p>
+            </div>
+
+            <button class="accordion"><b>&quot;Why should I workout?&quot;</b></button>
+            <div class="panel">
+                <p>
+                    &rarr; People workout for many different reasons whether it be to look good, be more confident, to be stronger, etc. But the most important reason to workout is to just be healthy.
+                </p>
+            </div>
+
+            <button class="accordion"><b>&quot;Can working out be fun?&quot;</b></button>
+            <div class="panel">
+                <p>
+                    &rarr; Yes. it can. Working out can be fun depending on how you workout. Find something that you actually like whether it be swimming, running, zumba, yoga or any other fitness activity.
+                </p>
+            </div>
+
+            <button class="accordion"><b>&quot;What should I think about when working out?&quot;</b></button>
+            <div class="panel">
+                <p>
+                    &rarr; Just a thing about yourself, do not think negative thoughts like "oh they're more fit than me or "he's going faster than me" Just think about how you wanna better yourself.
+                </p>
+            </div>
+
+            <button class="accordion"><b>&quot;What is something I should watch out for?&quot;</b></button>
+            <div class="panel">
+                <p>
+                    &rarr; You should stop comparing yourself to other people, that is a very negative mindset that you should terminate as soon as possible especially the people you see on social media.
+                </p>
+            </div>
+
+            <button class="accordion"><b>&quot;How can I lose weight?&quot;</b></button>
+            <div class="panel">
+                <p>
+                    &rarr; An easy way to lose weight is just by tracking your calories and doing cardio. When it comes to losing weight you should be patient and consistent do not go whole days without eating just because you want to lose weight it will be slow, but it will work.
+                </p>
+            </div>
+
+            <button class="accordion"><b>&quot;What is making me fat?&quot;</b></button>
+            <div class="panel">
+                <p>
+                    &rarr; What's making you fat are extra calories being stored as body fat people usually think that if they don't eat carbs and calories they'll lose weight and that's partially true but carbs aren't making you fat because they are only an energy source.
+                </p>
+            </div>
+
+            <button class="accordion"><b>&quot;How can I stop binge eating?&quot;</b></button>
+            <div class="panel">
+                <p>
+                    &rarr; When buying groceries only buy what you need and not what you want it helps later when you're at home, because when you have so many snacks just waiting in your house it gets harder to restrain yourself from eating.
+                </p>
+            </div>
+
+            <button class="accordion"><b>&quot;What are compound exercises and isolation exercises?&quot;</b></button>
+            <div class="panel">
+                <p>
+                    &rarr; Compound exercises are exercises that target a lot of muscles at the same time an example of this is the squat which targets the lower back muscles, the glutes, the hamstrings, hip flexors and calves.
+                    While isolation exercises are things that target one muscle only examples of these are dumbell curls which target the biceps and the skull crusher which targets the triceps.
+                </p>
+            </div>
+
+            <button class="accordion"><b>&quot;Which time of the day should I workout?&quot;</b></button>
+            <div class="panel">
+                <p>
+                    &rarr; Whether it be in the morning to start your day productive, in the afternoon where you have the most energy, or at night to get better sleep it doesn't matter what suits you best as long as you are consistent.
+                </p>
+            </div>
+        </div>
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                    this.classList.toggle("1active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.maxHeight) {
+                        panel.style.maxHeight = null;
+                    } else {
+                        panel.style.maxHeight = panel.scrollHeight + "10px";
+                    }
+                });
+            }
+        </script>
+        
+    </body>
+
+</html>
